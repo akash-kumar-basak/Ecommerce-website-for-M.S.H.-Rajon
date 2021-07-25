@@ -1,0 +1,180 @@
+/* PROGRAMMING BY AKASH KUMAR BASAK */
+
+
+.container {padding: 0;
+	margin: 0 auto;
+	width: 70%;}
+/* body {
+	background: #000000;
+	margin: 0;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Consolas;
+} */
+
+.navigation {padding: 0;
+margin: 0;}
+td.td1, .td2, .td3, .td4, .td5 { 
+	background-color:#3C6;
+	color: aliceblue;
+
+}
+
+
+.navigationTwo {height:80px;}
+.tdtwo1, .tdtwo2, .tdtwo3 
+{
+	color:#3C6;
+	margin: 0;
+	padding: 0;
+	background-color: #D4D4D4;
+}
+
+.search {
+	border: 3px solid #0C9;
+	height:40px;
+	width:300px;
+	border-radius:50px;
+	padding:0px 10px;
+}
+
+/* button animation */
+a {
+	position: relative;
+	display: inline-block;
+	color: #00771C;
+	text-transform: uppercase; 
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: #00FF15;
+	background: #2136f3 ;
+	box-shadow: 0 0 10px #2136f3, 0 0 40px #2136f3, 0 0 80px #2136f3;
+	transition-delay: 1s;
+}
+
+
+a span {
+	position: absolute;
+	display: block;
+}
+
+
+a span:nth-child(1)
+{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #2136f3);
+	
+}
+
+a:hover span:nth-child(1)
+{
+	left: 100%;
+	transition: 1s;
+}
+
+a span:nth-child(3)
+{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent, #2136f3);
+	
+}
+
+a:hover span:nth-child(3)
+{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+a span:nth-child(2)
+{
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #2136f3);
+	
+}
+
+a:hover span:nth-child(2)
+{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+a span:nth-child(4)
+{
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #2136f3);
+	
+}
+
+a:hover span:nth-child(4)
+{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+footer {
+	width: 100%;
+	height: 200px;
+	background: #3C6;
+	margin: 0 auto;
+	padding: 100px;
+	margin-top: 30px;
+	
+}
+
+.randomadvertiesment
+{
+	background-color: #EDEDED;
+}
+
+.randomadvertiesment2
+{
+	background-color: #EDEDED;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
